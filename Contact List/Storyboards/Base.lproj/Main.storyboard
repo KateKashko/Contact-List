@@ -34,7 +34,7 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="BMV-5V-pUo" kind="show" identifier="showDetails" id="4ij-eM-j78"/>
+                                    <segue destination="BMV-5V-pUo" kind="show" identifier="" id="4ij-eM-j78"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>

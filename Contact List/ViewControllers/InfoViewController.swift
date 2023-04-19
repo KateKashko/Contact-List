@@ -7,7 +7,7 @@
 
 import UIKit
 
-final class InfoViewController: UITableViewController {
+final class InfoViewController: UIViewController {
     
     @IBOutlet weak var phoneNumberLabel: UILabel!
     @IBOutlet weak var emailLabel: UILabel!
