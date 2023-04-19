@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Contact List-->
+        <!--Persons List-->
         <scene sceneID="uj1-gC-8yf">
             <objects>
                 <tableViewController id="2Vs-pv-It2" customClass="ContactListViewController" customModule="Contact_List" customModuleProvider="target" sceneMemberID="viewController">
@@ -43,7 +43,9 @@
                             <outlet property="delegate" destination="2Vs-pv-It2" id="eo8-vs-cHq"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Contact List" id="O6o-c0-nVC"/>
+                    <navigationItem key="navigationItem" title="Persons List" id="O6o-c0-nVC">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="CaJ-Ur-hAm"/>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JNC-FU-CAU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -57,8 +59,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="UQE-GB-Q7d">
-                                <rect key="frame" x="20" y="205" width="353" height="61.666666666666686"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="UQE-GB-Q7d">
+                                <rect key="frame" x="20" y="195" width="353" height="65.666666666666686"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mHE-oh-EMR">
                                         <rect key="frame" x="0.0" y="0.0" width="353" height="20.333333333333332"/>
@@ -67,7 +69,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="E-mail:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CEM-dC-gfa">
-                                        <rect key="frame" x="0.0" y="41.333333333333343" width="353" height="20.333333333333329"/>
+                                        <rect key="frame" x="0.0" y="45.333333333333343" width="353" height="20.333333333333329"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -78,7 +80,7 @@
                         <viewLayoutGuide key="safeArea" id="XeZ-7m-Zf8"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="UQE-GB-Q7d" firstAttribute="top" secondItem="XeZ-7m-Zf8" secondAttribute="top" constant="50" id="eMV-uz-5Ua"/>
+                            <constraint firstItem="UQE-GB-Q7d" firstAttribute="top" secondItem="XeZ-7m-Zf8" secondAttribute="top" constant="40" id="eMV-uz-5Ua"/>
                             <constraint firstItem="XeZ-7m-Zf8" firstAttribute="trailing" secondItem="UQE-GB-Q7d" secondAttribute="trailing" constant="20" id="nc6-ZO-xdQ"/>
                             <constraint firstItem="UQE-GB-Q7d" firstAttribute="leading" secondItem="XeZ-7m-Zf8" secondAttribute="leading" constant="20" id="taK-v8-CZr"/>
                         </constraints>
