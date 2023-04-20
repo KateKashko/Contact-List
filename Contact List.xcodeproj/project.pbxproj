@@ -64,7 +64,7 @@
 			children = (
 				937C7FEE29EE75BA00EB1F45 /* App */,
 				937C7FF129EE760100EB1F45 /* Models */,
-				937C7FF629EEFFEA00EB1F45 /* DataStores */,
+				937C7FF629EEFFEA00EB1F45 /* Services */,
 				937C7FF029EE75EE00EB1F45 /* ViewControllers */,
 				937C7FEF29EE75DD00EB1F45 /* Storyboards */,
 				937C7FE329EE75A100EB1F45 /* Assets.xcassets */,
@@ -108,12 +108,12 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		937C7FF629EEFFEA00EB1F45 /* DataStores */ = {
+		937C7FF629EEFFEA00EB1F45 /* Services */ = {
 			isa = PBXGroup;
 			children = (
 				937C7FF729EF000800EB1F45 /* DataStore.swift */,
 			);
-			path = DataStores;
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
