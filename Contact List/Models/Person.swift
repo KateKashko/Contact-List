@@ -14,7 +14,7 @@ struct Person {
     let phoneNumber: String
     
     var fullName: String {
-        "\(name) \(surname)"
+        " \(name) \(surname) "
     }
     
    static func getPerson() -> [Person]{
